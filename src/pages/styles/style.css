@@ -1,0 +1,58 @@
+#home{
+    background-image: url("../../../public/bg1.gif");
+    min-height:100vh;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    padding-top: 1%;
+}
+#myimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid rgb(207, 34, 34);
+    margin-bottom: 20px;
+}
+#name{
+    color: rgb(207, 34, 34);
+    font-size: 90px;
+    text-shadow:
+    -5px -5px 0 #000,  
+     5px -5px 0 #000,
+    -5px  5px 0 #000,
+     5px  5px 0 #000;
+}
+#badge{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow:
+    -5px -5px 0 #000,  
+     5px -5px 0 #000,
+    -5px  5px 0 #000,
+     5px  5px 0 #000;
+}
+#typer{
+    border: 2px solid white;
+    width: 370px;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 180%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 900px){
+    #name{
+        font-size: 10vw;
+    }
+    #badge{
+        font-size: 6vw;
+    }
+    #typer{
+        font-size: 5vw;
+        width: max-content;
+    }
+}
