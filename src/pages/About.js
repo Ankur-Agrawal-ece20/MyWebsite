@@ -38,7 +38,7 @@ const About = () => {
                 </div>
                 <div className="flexbox">
                     <div className="about_descr gridbox">
-                    <img className="about_img" src="Mypic1.jpg" alt="My pic"/>
+                    <img className="about_img" src="Mypic1.jpeg" alt="My pic"/>
                     <p>
                         Myself Ankur Agrawal, a Electronics undergraduate at IIT BHU. 
                         <br/>I am tech guy who loves developing and coding. 
