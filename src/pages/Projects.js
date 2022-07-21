@@ -3,6 +3,24 @@ import './styles/project.css';
 import Card from "../components/cards/card";
 const DATA=[
     {
+        "title":"Swarm-Bot",
+        "img":"bot.png",
+        "descr":"Omni drive based robots used in a constrained indoor setting for navigating to efficently reach their respective goals!",
+        "link":"https://github.com/Ankur-Agrawal-ece20/Multiagent-Delivery-System",
+    },
+    {
+        "title":"Irrigation Monitor",
+        "img":"irri.png",
+        "descr":"It is the IoT Based Smart Agriculture & Automatic Irrigation System with Nodemcu ESP8266!",
+        "link":"https://github.com/Ankur-Agrawal-ece20/Irrigation-Monitor",
+    },
+    {
+        "title":"Captcha Recogniser",
+        "img":"captcha.png",
+        "descr":"A model using Transfer Learning on MobileNetV2 architecture consisting of 19 letters and 7 emojis!",
+        "link":"https://github.com/Ankur-Agrawal-ece20/Hand-Written-Captcha-Recogniser",
+    },
+    {
         "title":"My Website",
         "img":"website.jpg",
         "descr":"This website created using react.js. I hope you like it :)",
