@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link onClick={showNav} className="tabs" to="/about">About</Link>
             <Link onClick={showNav} className="tabs" to="/projects">Projects</Link>
             <Link onClick={showNav} className="tabs" to="/contacts">Contacts</Link>
-            <a href="https://drive.google.com/file/d/18IlUuAkN3TOqx6xDd6JCFPpaVhW0SaDu/view" target="_blank" className="tabs"><b>&#9660; Resume</b></a>
+            <a href="https://drive.google.com/file/d/18IlUuAkN3TOqx6xDd6JCFPpaVhW0SaDu/view" target="_blank" rel="noreferrer" className="tabs"><b>&#9660; Resume</b></a>
             <a href={() => false} id="icon" className="icon" onClick={showNav}>&#9776;</a>
         </div>
         // </Router>
