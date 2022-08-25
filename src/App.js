@@ -17,10 +17,10 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route path="/about" element={<><About/><Footer/></>} />
-        <Route path="/projects" element={<><Project/><Footer/></>} />
-        <Route path="/contacts" element={<><ContactForm/><Footer/></>} />
+        <Route exact path="/" element={<><Home/><About/><Project/><Footer mode={"relative"}/></>} />
+        <Route path="/about" element={<><About/><Footer mode={"fixed"}/></>} />
+        <Route path="/projects" element={<><Project/><Footer mode={"fixed"}/></>} />
+        <Route path="/contacts" element={<><ContactForm/><Footer mode={"fixed"}/></>} />
         </Routes>  
       </Router>
     </>

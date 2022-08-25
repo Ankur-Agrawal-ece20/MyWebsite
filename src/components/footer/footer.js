@@ -1,7 +1,7 @@
 import React from "react";
 import './footer.css';
 
-const Footer = () => {
+const Footer = (props) => {
     const Expand=()=>{
         var x=document.getElementById("toexpand");
         var y=document.getElementById("showbtn");
@@ -20,7 +20,7 @@ const Footer = () => {
         }
     }
     return (
-        <div className="footer flexbox">
+        <div className="footer flexbox" style={{position: props.mode}}>
             <button id="showbtn" className="unclicked" onClick={Expand}>&and;</button>
             <div id="toexpand">
                 <div className="footer_grid">

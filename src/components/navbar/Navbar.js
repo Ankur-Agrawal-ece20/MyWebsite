@@ -23,6 +23,7 @@ const Navbar = () => {
     }
     return (
         // <Router>
+        <>
         <div className="topnav" id="myTopnav">
             <a href={() => false} className="name">Ankur Agrawal</a>
             <Link onClick={showNav} className="tabs active" to="/">Home</Link>
@@ -34,6 +35,8 @@ const Navbar = () => {
             </a>
             <a href={() => false} id="icon" className="icon" onClick={showNav}>&#9776;</a>
         </div>
+        <div id="distant"></div>
+        </>
         // </Router>
     );
 }
